@@ -1,2 +1,3 @@
-# simpy-ipc-snippets
-Snippets of Inter-process Communication (IPC) with SimPy simulation environments.
+# IPC Snippets with SimPy
+
+Snippets of Inter-process Communication (IPC) with [SimPy](https://simpy.readthedocs.io/en/latest/) simulation environments.
