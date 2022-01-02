@@ -43,7 +43,8 @@ def master(_env: simpy.Environment):
                     if cycles > 100 and randint(0, 6) == 0:
                         Logger.info("Simulating a crash...")
                         break
-                    elif cycles > 50 and randint(0, 3) == 0:
+                    
+                    if cycles > 50 and randint(0, 3) == 0:
                         Logger.info("Simulating CPU overload...")
                         yield _env.timeout(3)
 

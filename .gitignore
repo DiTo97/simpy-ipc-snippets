@@ -86,6 +86,11 @@ fabric.properties
 # https://plugins.jetbrains.com/plugin/12206-codestream
 .idea/codestream.xml
 
+# Python caches
+ __pycache__/
+ **/__pycache__/
+ *.pyc
+
 ### venv ###
 # Virtualenv
 venv/
